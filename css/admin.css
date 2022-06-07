@@ -1,0 +1,153 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body main h1 {
+  padding-top: 16px;
+}
+
+body main h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+  body main h2 {
+    font-size: 32px;
+  }
+}
+
+body main .auth {
+  position: relative;
+  top: 20vh;
+  padding: 16px;
+}
+
+body main .auth form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .auth form div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .auth form div button {
+  outline: none;
+  background: none;
+  border-radius: 3px;
+  padding: 16px;
+  color: #212529;
+  border: 1px solid #212529;
+}
+
+body main .auth form div button:hover {
+  background: #212529;
+  color: white;
+}
+
+body main .padding {
+  padding-top: 3em;
+}
+
+body main .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1024px) {
+  body main .list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+body main .list .card {
+  min-width: 25vw;
+  margin-bottom: 1em;
+}
+
+body main .list .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0rem !important;
+}
+
+body main .list .card .card-body div {
+  padding: 1rem;
+}
+
+body main .list .card .card-body div.firstPart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 1px solid #e6e6e6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .list .card .card-body div.firstPart div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .list .card .card-body div.secondPart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .list .card .card-body div.secondPart span i {
+  font-size: 24px;
+}
+
+body main .list .card .card-body div.secondPart span i.bi-trash-fill:hover {
+  color: #dc3545;
+}
+
+body main .list .card .card-body div.secondPart span i.bi-check2:hover {
+  color: #198754;
+}
+
+body main .statisticDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+/*# sourceMappingURL=admin.css.map */

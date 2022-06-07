@@ -1,0 +1,10 @@
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
+function RemoveRequest(id) {
+
+}
+
+function AddRequest(id) {
+
+}

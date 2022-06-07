@@ -1,0 +1,94 @@
+body {
+    font-family: 'Fira Sans', sans-serif; 
+    main {
+        h1 {
+            padding-top: 16px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 1em;
+            @media screen and (max-width: 1024px) {
+                font-size: 32px;
+            }
+        }
+        .auth {
+            position: relative;
+            top: 20vh;
+            padding: 16px;
+            form {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                div {
+                    &:last-child {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    button {
+                        outline: none;
+                        background: none;
+                        border-radius: 3px;
+                        padding: 16px;
+                        color: #212529;
+                        border: 1px solid #212529;
+                        &:hover {
+                            background: #212529;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+        .padding {
+            padding-top: 3em;
+        }
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            @media screen and (max-width: 1024px) {
+                justify-content: center;
+            }
+            .card {
+                min-width: 25vw;
+                margin-bottom: 1em;
+                .card-body {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0rem !important;
+                    div {
+                        padding: 1rem;
+                        &.firstPart {
+                            display: flex;
+                            border-right: 1px solid #e6e6e6;
+                            align-items: center;
+                            div {
+                                display: flex;
+                            }
+                        }
+                        &.secondPart {
+                            display: flex;
+                            flex-direction: column;
+                            span {
+                                i {
+                                    font-size: 24px;
+                                    &.bi-trash-fill:hover {
+                                        color: #dc3545;
+                                    }
+                                    &.bi-check2:hover {
+                                        color: #198754;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .statisticDiv {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+}
